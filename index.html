@@ -12,9 +12,11 @@
         .container { max-width: 700px; margin: 40px auto; padding: 0 20px; }
         .btn { display: inline-block; background-color: #20b2aa; color: #fff; padding: 15px 30px; text-decoration: none; border-radius: 5px; font-size: 1.2rem; font-weight: bold; margin-top: 20px; transition: background 0.3s; }
         .btn:hover { background-color: #178a84; }
+        .info-box { background-color: #2a2a35; border-left: 5px solid #20b2aa; padding: 20px; margin: 20px 0; border-radius: 4px; }
         .warning-box { background-color: #2a2a35; border-left: 5px solid #ffcc00; padding: 25px; margin-top: 20px; border-radius: 4px; box-shadow: 0 4px 6px rgba(0,0,0,0.3); }
-        .warning-box h2 { margin-top: 0; color: #ffcc00; font-size: 1.5rem; }
-        ol { padding-left: 20px; margin-bottom: 0; }
+        .warning-box h2, .info-box h2 { margin-top: 0; color: #20b2aa; font-size: 1.5rem; }
+        .warning-box h2 { color: #ffcc00; }
+        ul, ol { padding-left: 20px; }
         li { margin-bottom: 12px; }
         code { background: #111; padding: 3px 6px; border-radius: 3px; font-family: monospace; color: #20b2aa; }
         strong { color: #fff; }
@@ -29,15 +31,25 @@
     </header>
 
     <div class="container">
+        <div class="info-box">
+            <h2>How to Use</h2>
+            <ul>
+                <li><strong>Show/Hide:</strong> Click the floating toggle button.</li>
+                <li><strong>Move UI:</strong> Hold the <strong><code>Alt</code></strong> key and drag the button or stats window to reposition them.</li>
+                <li><strong>Interactive Tooltips:</strong> Hover over any player name to see their top hero win rates and detailed MMR.</li>
+                <li><strong>Level Coloring:</strong> Player names change color based on their account level (Bronze, Silver, Gold, Platinum).</li>
+                <li><strong>Game Mode:</strong> Ensure HotS is set to <strong>Windowed (Fullscreen)</strong>.</li>
+            </ul>
+        </div>
+
         <div class="warning-box">
             <h2>Installation Instructions</h2>
-            <p>Because this is a free, community tool, it is not signed with an enterprise certificate. Windows SmartScreen will flag it as an unrecognized app.</p>
+            <p>Windows SmartScreen will flag this as an unrecognized app because it is an unsigned community tool.</p>
             <ol>
-                <li>Click <strong>Download v1.9.1</strong> and save the ZIP file.</li>
+                <li>Click <strong>Download v1.9.1</strong> and save the ZIP.</li>
                 <li>Right-click the ZIP and select <strong>Extract All...</strong></li>
-                <li>Open the extracted folder and double-click <code>hots-companion.exe</code>.</li>
-                <li>When the blue "Windows protected your PC" screen appears, click <strong>More info</strong>.</li>
-                <li>Click the <strong>Run anyway</strong> button at the bottom.</li>
+                <li>Double-click <code>hots-companion.exe</code>.</li>
+                <li>On the blue screen, click <strong>More info</strong> then <strong>Run anyway</strong>.</li>
             </ol>
         </div>
     </div>
