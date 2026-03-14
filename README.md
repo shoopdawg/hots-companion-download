@@ -17,18 +17,19 @@ A lightweight, non-intrusive stats overlay for Heroes of the Storm loading scree
 
 ## 🕹️ How to Use
 
-### Moving the Overlay
-The overlay is designed to be flexible for different resolutions:
-* **Drag to Reposition:** Simply click and hold anywhere on the stats window to drag it to your preferred location (e.g., center-top or over the hero portraits).
-* **Auto-Save:** The app remembers your last position; it will snap back to that spot every time you enter a loading screen.
+### Controlling the Overlay
+The app features a **Toggle Button** that stays on screen so you can quickly show/hide your stats.
 
-### Management & Settings
-* **System Tray:** The app runs in your system tray (near the clock). Right-click the icon to access **Settings** or **Exit**.
-* **Launch on Startup:** To have the app ready for every game, right-click the tray icon and toggle **"Start with Windows"**. 
-* **Manual Setup:** If you move your Replay folder, you can update the path via the **Setup Wizard** in the tray menu.
+* **Moving the Button:** To reposition the toggle button, **hold down the `Alt` key** and then click and drag the button to your desired location.
+* **Toggling Stats:** A simple click on the button (without Alt) will show or hide the stats overlay.
+* **Repositioning Stats:** Like the button, you can move the main stats window by **holding `Alt`** and dragging the window.
 
-### Best Practices
-* **Display Mode:** For the best experience, run Heroes of the Storm in **"Fullscreen Windowed"** mode. This allows the overlay to sit on top without flickering.
+### Display Mode
+* **Crucial:** Heroes of the Storm **must** be in **"Windowed (Fullscreen)"** mode. If you run in "Fullscreen," Windows will hide the overlay behind the game.
+
+### Management
+* **System Tray:** Right-click the icon near your clock to exit or re-run the Setup Wizard.
+* **Auto-Save:** The app automatically saves the position of both the button and the overlay, so they stay where you put them across sessions.
 
 ## 🛠 Technical Stack
 * **Language:** Python 3.11
