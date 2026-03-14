@@ -15,6 +15,21 @@ A lightweight, non-intrusive stats overlay for Heroes of the Storm loading scree
    * *Note: Click "More Info" -> "Run Anyway" if Windows SmartScreen appears.*
 4. **Setup:** Enter your BattleTag (e.g., `Player#1234`) and point the app to your Replays folder.
 
+## 🕹️ How to Use
+
+### Moving the Overlay
+The overlay is designed to be flexible for different resolutions:
+* **Drag to Reposition:** Simply click and hold anywhere on the stats window to drag it to your preferred location (e.g., center-top or over the hero portraits).
+* **Auto-Save:** The app remembers your last position; it will snap back to that spot every time you enter a loading screen.
+
+### Management & Settings
+* **System Tray:** The app runs in your system tray (near the clock). Right-click the icon to access **Settings** or **Exit**.
+* **Launch on Startup:** To have the app ready for every game, right-click the tray icon and toggle **"Start with Windows"**. 
+* **Manual Setup:** If you move your Replay folder, you can update the path via the **Setup Wizard** in the tray menu.
+
+### Best Practices
+* **Display Mode:** For the best experience, run Heroes of the Storm in **"Fullscreen Windowed"** mode. This allows the overlay to sit on top without flickering.
+
 ## 🛠 Technical Stack
 * **Language:** Python 3.11
 * **UI:** PyQt6 (Transparent Windows)
