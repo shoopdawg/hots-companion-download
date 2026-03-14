@@ -35,6 +35,16 @@ The app features a **Toggle Button** that stays on screen so you can quickly sho
 ### Display Mode
 * **Crucial:** Heroes of the Storm **must** be in **"Windowed (Fullscreen)"** mode. If you run in "Fullscreen," Windows will hide the overlay behind the game.
 
+### 📊 Interactive Stats
+* **Hover for Details:** During the loading screen, hover your mouse over any player's name to reveal a tooltip. This displays:
+    * Win percentages for their most played heroes.
+    * Recent match performance.
+    * Specific MMR brackets.
+* **Level-Based Coloring:** * **Low Level:** Standard white/grey.
+    * **Mid Level:** Bronze/Silver/Gold accents.
+    * **High Level (1000+):** Vibrant Platinum/Teal glow.
+
+
 ### Management
 * **System Tray:** Right-click the icon near your clock to exit or re-run the Setup Wizard.
 * **Auto-Save:** The app automatically saves the position of both the button and the overlay, so they stay where you put them across sessions.
