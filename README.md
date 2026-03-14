@@ -57,3 +57,8 @@ The app features a **Toggle Button** that stays on screen so you can quickly sho
 
 ## 🔒 Safety & Privacy
 This tool only reads your local `*.StormReplay` and `*.battlelobby` files. It does **not** inject code into the HotS game client, making it safe from anti-cheat flags.
+
+## 🛠️ Open Source & Privacy
+The **hots-companion** is built with transparency in mind. 
+* **Safe:** No code injection; it only reads local files.
+* **Source Code:** While this repository serves as the public distribution point, the source code is hosted in a private development repo. I am currently working on auditing the code for a full public source release soon!
