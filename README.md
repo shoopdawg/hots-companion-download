@@ -16,6 +16,11 @@ A lightweight, non-intrusive stats overlay for Heroes of the Storm loading scree
     * **Mid Level:** Bronze/Silver/Gold accents.
     * **High Level (1000+):** Vibrant Platinum/Teal glow.
 
+## Requirements
+- Windows 10 or 11 (64-bit)
+- [PowerShell 7](https://aka.ms/powershell) (`pwsh` on PATH) — required by the lobby parser
+- Heroes of the Storm installed and launched at least once
+
 ## 🚀 Quick Start (v1.9.1)
 1. **Download:** Grab the latest `hots-companion.zip` from [the website](https://shoopdawg.github.io/hots-companion-download/).
 2. **Extract:** Unzip the folder anywhere on your PC.
